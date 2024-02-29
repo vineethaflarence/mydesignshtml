@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Domine&family=Hanken+Grotesk:wght@300&family=Libre+Baskerville:ital@1&family=Playpen+Sans:wght@800&display=swap" rel="stylesheet">
+    <title>Abhishek Deshpandey</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <style>
+        .logo {
+            width: 100px;
+        }
+        .nav-link {
+            color: white;
+            font-size: 20px;
+            font-family: 'Playpen Sans', cursive;
+        }
+        .profile-image {
+            width: 290px;
+            height: 290px;
+            box-shadow: 2px 2px 2px  grey;
+        }
+        .name {
+            font-family: firasans, Helvetica, Arial;
+            color: #0b3d4f;
+        }
+        .header {
+            position: absolute;
+            width: 136px;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: #0b3d4f;
+            top: 0;
+            left: 0;
+            height: 32px;
+            clip-path: polygon(0 0, 100% 0, 82% 100%, 0 100%);
+            z-index: -1;
+        }
+        .card {
+            margin-top: 20px;
+        }
+        #myDIV1 ,#myDIV5 {
+            font-size:13px;
+            height: auto;
+            width: 95%;
+            margin: 10px;
+            background-color:#f0ecdf;
+            padding: 20px;
+            box-shadow: 2px 2px 10px  grey;
+        }
+        #myDIV2 {
+            font-size:13px;
+            height: auto;
+            width: 240px;
+            margin: 10px;
+            background-color:#f0ecdf;
+            padding: 20px;
+            box-shadow: 2px 2px 10px  grey;
+        }
+        #myDIV3 {
+            font-size:13px;
+            height: auto;
+            width:300px;
+            margin: 10px;
+            background-color:#f0ecdf;
+            padding: 20px;
+            box-shadow: 2px 2px 10px  grey;
+        }
+        #myDIV4 {
+            font-size:13px;
+            height: auto;
+            width: 240px;
+            margin: 10px;
+            background-color: #f0ecdf;
+            padding: 20px;
+            box-shadow: 2px 2px 10px  grey;
+        }
+        #blueDIV,#blueDIV2 ,#blueDIV3 ,#blueDIV4,#blueDIV5{
+            display: flex;
+            align-items: center;
+            position: absolute;
+            padding-left: 10px;
+            background: url('https://i.postimg.cc/rF5rbhBM/bg.jpg');
+            height: 30px;
+            font-size: 15px;
+            font-weight: bold;
+            left: 0;
+            color: white;
+            text-align: left;
+            clip-path: polygon(0 0, 100% 0, 82% 100%, 0 100%);
+        }
+        .content{
+            font-family: "Roboto Slab", serif;
+        }
+        .content1{
+            font-family: "Roboto Slab", serif;
+            line-height:25px;
+        }
+        kbd{
+            padding:5px;
+        }
+        @media (max-width: 768px) {
+            .profile-image {
+                width: 150px;
+                height: 150px;
+            }
+        }
+        .copy_right_footer {
+    position:absolute;
+    font-family: "Roboto Slab", serif;
+    color: white;
+    bottom: 100;
+    width: 100%;
+    font-weight:bold;
+    background: url('https://i.postimg.cc/rF5rbhBM/bg.jpg');
+    line-height:3;
+    margin-top:20px;
+    text-align: center;
+ }
+ .click-link{
+    color: #0b3d4f;
+    font-weight:bold;
+ }
+ .line{
+           width:100%;
+            border: 1px solid lightgrey;
+        }
+    </style>
+</head>
+<body style="background:#f0ecdf;">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background:#f0ecdf;margin-left:40px;">
+        <a class="navbar-brand" href="#"><img src="https://i.postimg.cc/7YmkxzJd/logo.png" class="logo"><span>&nbsp;&nbsp;<img src="https://i.postimg.cc/fyC6R4ym/ccnsb.png" class="logo"></span></a>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-sm-12 p-3">
+                <!--<div class="image">
+                <img src="https://www.iiit.ac.in/files/iiit/Abhishek_photo.jpg" class="profile-image">
+            </div>-->
+            </div>
+            <div class="col-lg-12 col-sm-12 p-3 ">
+                <div class="line"></div>
+            <nav class="navbar navbar-expand-lg navbar-light" style="background:#f0ecdf;justify-content: center;margin-left:30%;">
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" style="color:black;font-family: Roboto Slab, serif;font-weight:bold;" href="index4.html">Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:black;font-family: Roboto Slab, serif;font-weight:bold;" href="research4.html">Research</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"  style="color:black;font-family: Roboto Slab, serif;font-weight:bold;" href="events4.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:black;font-family: Roboto Slab, serif;font-weight:bold;" href="teaching4.html">Teaching</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:black;font-family: Roboto Slab, serif;font-weight:bold;" href="talks4.html">Invited Talks</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="line"></div>
+           <!-- <h1 class="name content pt-3">Abhishek Deshpandey</h1>
+                <p class="content">Ph.D in Applied Mathematics (Imperial College London)</p>-->
+        </div>
+           
+           
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-sm-12 p-3">
+                <div id="myDIV2">
+                    <div id="blueDIV2" style="width:100px;">Contact</div>
+                    <br><br>
+                    <p class="content"><b>Email:</b> abhishek.deshpande@iiit.ac.in<br><b>Phone:</b> 91 40 6653 1000</p>
+                </div>
+                <div id="myDIV4">
+                    <div id="blueDIV4" style="width:100px;">Address</div>
+                    <br><br>
+                    <p class="content">B2-304 Vindhya, IIIT Hyderabad,<br>
+                    
+                    Prof. CR Rao Road, Gachibowli,<br>
+                    
+                    Hyderabad 500 032,<br>
+                    
+                    Telangana, India</p>
+                    </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 p-3 ">
+                <div id="myDIV4" style="width:100%;">
+                    <div id="blueDIV2" style="width:150px;">Invited Talks</div>
+                    <div class="info p-3" style="margin-top:20px; font-family: Roboto Slab, serif;">
+                        <ul>
+                            <p><i><strong>Quasi-toric differential inclusions:</strong></i><strong> </strong>SIAM Conference on Applied Algebraic Geometry, (July 10 &#8211; 14, 2023), Eindhoven University of Technology, Eindhoven, Netherlands</p>
+                            <p><strong><i>Minimal invariant regions and minimal globally attract</i></strong><i><strong>ing regions for variable-k reaction systems:</strong> </i>SIAM Conference on Applications of Dynamical Systems, May 14-18, 2023, Portland, Oregon, United States</p>
+                            <p><strong><i>Minimal invariant regions and minimal globally attract</i></strong><i><strong>ing regions for variable-k reaction systems:</strong> </i>SIAM Annual meeting, (July 11 &#8211; 16, 2022), David L. Lawrence Convention Center, Pittsburgh, Pennsylvania, USA.</p>
+                            <p><strong><i>Autocatalytic systems and recombination: a </i></strong><i><strong>reaction network perspective:</strong> </i>Reaction Network Seminar, 24 February 2022, Politecnico di Torino/University of Copenhagen/University of Vienna.</p>
+                            <p><strong><i>Minimal invariant regions and minimal globally attract</i></strong><strong><i>ing regions for toric differential inclusions: </i></strong>SIAM Conference on Applied Algebraic Geometry, (August 16 &#8211; 20, 2021), Texas A &amp; M University, USA.</p>
+                            <p><em><strong>Quasi-toric differential inclusions:</strong></em> Seminar on Applied Mathematics, 9 March 2020, West Virginia University, Morgantown, West Virginia, United States of America.</p>
+                            <p><strong><i>Endotactic networks and toric differential inclusions: </i></strong>SIAM Conference on Applied Algebraic Geometry, (July 9 &#8211; 13, 2019), University of Bern, Bern, Switzerland.</p>
+                            <p><em><strong>The hypercycle,</strong> <strong>a reaction network perspective</strong>: </em>AMS Fall Sectional Meeting, University of Wisconsin Madison (Sept 14, 2019)</p>
+                            <p><strong><em>Biochemical switches</em></strong>, Applied and Computational Mathematics Seminar, University of Wisconsin Madison (Feb 1, 2019.</p>
+                            <p><strong><em>Autocatalysis in reaction networks</em></strong>, Middlesex University, London, United Kingdom (January 24 2018)</p>
+                            <p><strong><em>Catalysis in chemistry and biology</em></strong>, International Institute of Information Technology, Hyderabad, India (Jan 4, 2018)</p>
+                            <p><em><strong>Switches in chemical, biological and physical computation</strong></em>, Microsoft Research Cambridge (November 24, 2017</p>
+                            <p><strong><em>Designing the optimal: cost/speed/reliability tradeoff</em></strong>, Imperial College London SIAM Student Chapter, London, United Kingdom (Dec 16, 2015)</p>
+                    </ul>
+                </div>
+                </div>
+                </div>
+                <div class="col-lg-3 col-sm-12 p-3">
+                <div id="myDIV3">
+                    <div id="blueDIV3" style="width:180px;"> Research Interests</div>
+                    <br><br>
+                    <p class="content">Mathematical biology, Dynamical systems, Chemical reaction networks, Retroactivity and signal transduction in enzymatic pathways.
+                       <br> In particular, my research revolves around.</p>
+                       <ul>
+                        <li class="content">Analyzing polynomial dynamical systems arising from biochemical networks. Reaction networks can be visualized as finite graphs embedded in Euclidean space. The key idea is to relate the dynamics of the reaction network with its underlying  structure.</li>
+                    <li class="content">Reaction networks for inference and computation. The idea here is to exploit the dynamics of reaction networks for implementing algorithms in machine learning.</li>   
+                     <li class="content">Elucidating the relationship between retroactivity, flux and signal strength in biological enzymatic pathways like futile cycles, MAPK cascades.</li>    
+                </ul>
+                    </div>
+                    </div>
+                   
+            </div>
+        </div>
+    
+    <div class="copy_right_footer mt-5">
+        <p>© Copyright Abhishek Deshpande. All Rights Reserved</p>
+    </div>
+   
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

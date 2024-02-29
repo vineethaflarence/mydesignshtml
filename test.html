@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Abhishek Deshpandey</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    
+    <!-- Custom CSS -->
+    <style>
+        .logo {
+            width: 100px;
+        }
+        .nav-link {
+            color: black;
+            font-size: 20px;
+            font-family: 'Playpen Sans', cursive;
+        }
+        .profile-image {
+            width: 250px;
+            height: 250px;
+        }
+        .name {
+            font-family: firasans, Helvetica, Arial;
+        }
+        .header {
+            position: absolute;
+            width: 136px;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: #23796a;
+            top: 0;
+            left: 0;
+            height: 32px;
+            clip-path: polygon(0 0,100% 0,82% 100%,0 100%);
+            z-index: -1;
+        }
+        .card {
+            margin-top: 20px;
+        }
+        #myDIV {
+            height: auto;
+            width: 100%;
+            margin: 10px;
+            background-color: rgb(240, 240, 239);
+        }
+        #blueDIV {
+            text-align: center;
+            position: absolute;
+            width: 200px;
+            /*padding-left: 10px;*/
+            background: #23796a;
+            height: 30px;
+            font-size: 15px;
+            font-weight: bold;
+            left: 0;
+            color: white;
+            text-align: left;
+            margin-top: 20px;
+            clip-path: polygon(0 0,100% 0,82% 100%,0 100%);
+        }
+        @media (max-width: 768px) {
+            .profile-image {
+                width: 150px;
+                height: 150px;
+            }
+            .nav-link {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="logo.png" class="logo"><span><img src="ccnsb.png" class="logo"></span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Research</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Teaching</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Invited Talks</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="d-flex flex-column justify-content-center m-2">
+                    <img src="https://www.iiit.ac.in/files/iiit/Abhishek_photo.jpg" class="profile-image">
+                    <div id="myDIV">
+                        <div id="blueDIV">Contact</div>
+                        <br><br>
+                        <p >
+                            <b>Email:</b> abhishek.deshpande@iiit.ac.in<br>
+                            <b>Phone:</b> 91 40 6653 1000
+                        </p>
+                    </div>
+                    <br>
+                    <div id="myDIV">
+                        <div id="blueDIV">Address</div>
+                        <br><br>
+                        <p style="margin:10px;">B2-304 Vindhya, IIIT Hyderabad,<br>
+                            Prof. CR Rao Road, Gachibowli,<br>
+                            Hyderabad 500 032,<br>
+                            Telangana, India
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12">
+                <div class="d-flex flex-column justify-content-center">
+                    <h1 class="name">Abhishek Deshpande</h1>
+                    <p>Ph.D in Applied Mathematics (Imperial College London)</p>
+                </div>
+                <div class="content">
+                    <div id="myDIV">
+                        <div id="blueDIV">About</div>
+                        <br><br>
+                        <p style="margin:20px;width:100%;text-wrap:wrap;text-align:left;">
+                            I work as an Assistant Professor in the Center for Computational Natural Science and Bioinformatics at International Institute of Information Technology (IIIT Hyderabad), India.
+                        </p>
+                    </div>
+                    <div id="myDIV">
+                        <div id="blueDIV">Research Interests</div>
+                        <br><br>
+                        <p style="margin:20px;width:100%;text-wrap:wrap;text-align:left;">
+                            Mathematical biology, Dynamical systems, Chemical reaction networks, Retroactivity and signal transduction in enzymatic pathways.
+                            <br> In particular, my research revolves around.
+                        </p>
+                        <ul>
+                            <li>Analyzing polynomial dynamical systems arising from biochemical networks. Reaction networks can be visualized as finite graphs embedded in Euclidean space. The key idea is to relate the dynamics of the reaction network with its underlying structure.</li>
+                            <li>Reaction networks for inference and computation. The idea here is to exploit the dynamics of reaction networks for implementing algorithms in machine learning.</li>
+                            <li>Elucidating the relationship between retroactivity, flux and signal strength in biological enzymatic pathways like futile cycles, MAPK cascades.</li>
+                        </ul>
+                    </div>
+                    <div id="myDIV">
+                        <div id="blueDIV">Professional Trajectory</div>
+                        <br><br>
+                        <p style="margin:20px;width:100%;text-wrap:wrap;text-align:left;">
+                            2021- Current:
+                            Assistant Professor, Center for Computational Natural Science and Bioinformatics, IIIT Hyderabad, India
+                            <br> 2018 - 2021:
+                            Van Vleck Visiting Assistant Professor, University of Wisconsin Madison (Postdoctoral mentor: Gheorghe Craciun)
+                            <br> 2014 - 2018:
+                            PhD, Imperial College London (Advisors: Thomas Ouldridge, Manoj Gopalkrishnan and Nick Jones)
+                            <br> 2009 - 2014:
+                            B.Tech in Computer Science and M.S in Computational Natural Science, IIIT Hyderabad, India. (Advisors: Harjinder Singh and Indranil Chakrabarty)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
